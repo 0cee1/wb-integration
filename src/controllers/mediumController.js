@@ -56,7 +56,7 @@ const getOneArticle = async (req, res) => {
             message: 'Article retrieved successfully',
             data: article
         })
-        console.log('ARTICLE=============;;  ', article)
+
     } catch (error) {
         console.log(error);
         res.status(400).json({
